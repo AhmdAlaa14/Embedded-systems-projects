@@ -1,0 +1,1058 @@
+22:39:43 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:18: error: invalid type argument of '->' (have 'ADC_ConfigType')
+../fanController.c:19: error: invalid type argument of '->' (have 'ADC_ConfigType')
+../fanController.c:21: warning: implicit declaration of function 'ADC_Init'
+../fanController.c:21: error: invalid type argument of 'unary *' (have 'ADC_ConfigType')
+make: *** [fanController.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:40:15 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:21: warning: implicit declaration of function 'ADC_Init'
+../fanController.c:21: error: invalid type argument of 'unary *' (have 'ADC_ConfigType')
+make: *** [fanController.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:40:25 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:21: warning: implicit declaration of function 'ADC_Init'
+Finished building: ../fanController.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+../lm35_sensor.c:21: error: conflicting types for 'LM35_getTemperature'
+../lm35_sensor.h:34: error: previous declaration of 'LM35_getTemperature' was here
+make: *** [lm35_sensor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:41:31 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:21: warning: implicit declaration of function 'ADC_Init'
+../fanController.c:29: error: too few arguments to function 'LM35_getTemperature'
+make: *** [fanController.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:41:46 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:21: warning: implicit declaration of function 'ADC_Init'
+Finished building: ../fanController.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"motor.d" -MT"motor.o" -c -o "motor.o" "../motor.c"
+../motor.c: In function 'DcMotor_Rotate':
+../motor.c:44: warning: implicit declaration of function 'PWM_Timer0_Start'
+Finished building: ../motor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:21: undefined reference to `ADC_Init'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:41:58 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11464 bytes (70.0% Full)
+(.text + .data + .bootloader)
+
+Data:        276 bytes (27.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:44:37 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11460 bytes (69.9% Full)
+(.text + .data + .bootloader)
+
+Data:        276 bytes (27.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:45:04 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:22: warning: implicit declaration of function 'LCD_DisplayCharacter'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:22: undefined reference to `LCD_DisplayCharacter'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:50:30 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:22: warning: implicit declaration of function 'LCD_DisplayCharacter'
+Finished building: ../fanController.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:22: undefined reference to `LCD_DisplayCharacter'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:50:47 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11436 bytes (69.8% Full)
+(.text + .data + .bootloader)
+
+Data:        276 bytes (27.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:52:35 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:62: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:112: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9118 bytes (55.7% Full)
+(.text + .data + .bootloader)
+
+Data:        276 bytes (27.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:20:12 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: error: redeclaration of enumerator 'OFF'
+../motor.h:16: error: previous definition of 'OFF' was here
+../fanController.c:18: warning: missing braces around initializer
+../fanController.c:18: warning: (near initialization for 'state[0]')
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:32: warning: implicit declaration of function 'LM35_GetTemperature'
+make: *** [fanController.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:20:50 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:18: warning: missing braces around initializer
+../fanController.c:18: warning: (near initialization for 'state[0]')
+../fanController.c:18: error: 'ON' undeclared here (not in a function)
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:32: warning: implicit declaration of function 'LM35_GetTemperature'
+make: *** [fanController.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:21:26 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:32: warning: implicit declaration of function 'LM35_GetTemperature'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:32: undefined reference to `LM35_GetTemperature'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:21:53 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9186 bytes (56.1% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (28.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:23:02 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9186 bytes (56.1% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (28.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:39:33 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:29: warning: implicit declaration of function 'LCD_diasplayString'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:29: undefined reference to `LCD_diasplayString'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:39:59 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9214 bytes (56.2% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (28.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:40:26 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:19: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9214 bytes (56.2% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (28.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:42:58 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+../fanController.c: In function 'main':
+../fanController.c:33: warning: implicit declaration of function 'LCD_displayRowColumn'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+./fanController.o: In function `main':
+../fanController.c:33: undefined reference to `LCD_displayRowColumn'
+../fanController.c:38: undefined reference to `LCD_displayRowColumn'
+../fanController.c:43: undefined reference to `LCD_displayRowColumn'
+../fanController.c:48: undefined reference to `LCD_displayRowColumn'
+../fanController.c:53: undefined reference to `LCD_displayRowColumn'
+make: *** [mini_project3.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:43:36 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9258 bytes (56.5% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (28.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:46:02 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9278 bytes (56.6% Full)
+(.text + .data + .bootloader)
+
+Data:        294 bytes (28.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:46:23 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9278 bytes (56.6% Full)
+(.text + .data + .bootloader)
+
+Data:        294 bytes (28.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:46:31 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9278 bytes (56.6% Full)
+(.text + .data + .bootloader)
+
+Data:        294 bytes (28.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:46:45 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9278 bytes (56.6% Full)
+(.text + .data + .bootloader)
+
+Data:        294 bytes (28.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:56:29 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9310 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:57:31 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9310 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:03:36 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9334 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:04:20 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9300 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:06:42 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9312 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:07:19 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+../lm35_sensor.c: In function 'LM35_getTemperature':
+../lm35_sensor.c:32: error: array subscript is not an integer
+make: *** [lm35_sensor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:09:46 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9346 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:11:13 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+../lm35_sensor.c: In function 'LM35_getTemperature':
+../lm35_sensor.c:32: error: array subscript is not an integer
+make: *** [lm35_sensor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:11:44 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9352 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:12:10 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9352 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:18:09 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../fanController.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"fanController.d" -MT"fanController.o" -c -o "fanController.o" "../fanController.c"
+../fanController.c:17: warning: return type of 'main' is not 'int'
+Finished building: ../fanController.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:62: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:112: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"motor.d" -MT"motor.o" -c -o "motor.o" "../motor.c"
+../motor.c: In function 'DcMotor_Rotate':
+../motor.c:69: warning: implicit declaration of function 'PWM_Timer0_Start'
+Finished building: ../motor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9352 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:20:25 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"motor.d" -MT"motor.o" -c -o "motor.o" "../motor.c"
+../motor.c: In function 'DcMotor_Rotate':
+../motor.c:69: error: too many arguments to function 'PWM_Timer0_Start'
+make: *** [motor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:21:12 **** Incremental Build of configuration Debug for project mini_project3 ****
+make all 
+Building file: ../motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"motor.d" -MT"motor.o" -c -o "motor.o" "../motor.c"
+Finished building: ../motor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: mini_project3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project3.map -mmcu=atmega16 -o "mini_project3.elf"  ./adc.o ./fanController.o ./gpio.o ./lcd.o ./lm35_sensor.o ./motor.o ./pwm.o   
+Finished building target: mini_project3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project3.elf  >"mini_project3.lss"
+Finished building: mini_project3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
